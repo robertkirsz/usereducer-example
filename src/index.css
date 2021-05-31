@@ -17,6 +17,11 @@ main {
   color: #282c34;
 }
 
+.dark {
+  background-color: #282c34;
+  color: white;
+}
+
 @keyframes spin {
   from {
     transform: rotate(0deg);
