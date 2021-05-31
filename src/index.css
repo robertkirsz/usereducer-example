@@ -36,3 +36,18 @@ img {
   pointer-events: none;
   animation: spin infinite 20s linear;
 }
+
+.TODOs {
+  display: flex;
+  flex-direction: column;
+  margin: 8px 0;
+}
+
+.TODOs > *:not(:first-child) {
+  margin-top: 8px;
+}
+
+.TODOs > div {
+  display: flex;
+  justify-content: space-between;
+}
